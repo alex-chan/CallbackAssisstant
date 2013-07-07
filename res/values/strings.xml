@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">回拔助手</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="prompt">设置回拨号码</string>
+    <string name="ok">确认</string>
+    <string name="callback_phone_number">13807683356</string>
+
+</resources>
