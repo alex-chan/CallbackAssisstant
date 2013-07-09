@@ -7,5 +7,6 @@
     <string name="prompt">设置回拨号码</string>
     <string name="ok">确认</string>
     <string name="callback_phone_number">13807683356</string>
+    <string name="call">拨打电话</string>
 
 </resources>
