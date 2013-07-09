@@ -18,16 +18,20 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		
 		
+		CallReceiver cr = new CallReceiver();
+		
+		
+		
 		Button mBtnCall = (Button)findViewById(R.id.btnCall);
 		mBtnCall.setOnClickListener(new OnClickListener(){
 
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
-				TextView tv = (TextView)findViewById(R.id.etPhoneNumber);
-				final String phone = (String) tv.getText();
-				Uri  uri = new Uri("tel:"+phone);
-				Intent intent = new Intent(Intent.ACTION_DIAL, );
+//				TextView tv = (TextView)findViewById(R.id.etPhoneNumber);
+//				final String phone = (String) tv.getText();
+//				Uri  uri = new Uri("tel:"+phone);
+//				Intent intent = new Intent(Intent.ACTION_DIAL, );
 				
 				
 				
